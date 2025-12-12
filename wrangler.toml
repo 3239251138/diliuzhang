@@ -1,0 +1,6 @@
+name = "data-visualization"
+compatibility_date = "2025-12-12"
+main = "_worker.js"
+
+[env.production]
+name = "diliuzhang-3239251138"

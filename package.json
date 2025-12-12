@@ -1,0 +1,24 @@
+{
+  "name": "data-visualization",
+  "version": "1.0.0",
+  "description": "Matplotlib数据可视化展示平台",
+  "main": "_worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:production": "wrangler deploy --env production",
+    "preview": "python -m http.server 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "keywords": [
+    "data-visualization",
+    "matplotlib",
+    "charts",
+    "interactive"
+  ],
+  "author": "3239251138",
+  "license": "MIT"
+}
